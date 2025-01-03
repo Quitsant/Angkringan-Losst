@@ -1,0 +1,241 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: rgb(23, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    overflow: -moz-hidden-unscrollable;
+    
+}
+
+h1,h2, h3, h4, p {
+    color: white;
+}
+
+.Nav {
+    margin: auto;
+    width: 1500px;
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+.judul {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: monospace;
+    color: rgb(0, 150, 0);
+    float: left;
+    padding: 15px;
+    text-decoration: none
+}
+
+.judul:hover {
+    cursor:default;
+    text-decoration: none
+}
+
+.judul2 {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: monospace;
+    color: rgb(150, 0, 0);
+    float: left;
+    padding: 15px;
+}
+
+.judul2:hover {
+    cursor:default;
+}
+
+nav {
+    border-bottom: solid 4px;
+    border-color: rgb(0, 150, 0);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 240%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    z-index: 100;
+    background-color: rgb(38, 38, 38);
+    text-decoration: none
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: auto;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 16px;
+}
+
+nav ul li a {
+    text-align: center;
+    padding:  16px;
+    text-decoration: none;
+    color: rgb(0, 150, 0);
+    transition: ease-in-out 212ms;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color:rgb(0, 250, 0);
+    transition: ease-in-out 212ms;
+}
+
+.isi_pertama {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1px;
+}
+.isi_pertama h4{
+    margin: 0 100px 0 100px;
+}
+
+.isi_kedua {
+    padding: 100px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.gambar .gorengan-gambar {
+    padding-bottom:28px ;
+    width: 45%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color:rgb(30, 30, 30);
+    border: px solid green;
+}
+
+.gambar .gorengan-gambar-image{
+    height: 100%;
+    width: 100%;
+}
+
+.gambar .kopi-gambar {
+    padding-bottom:28px ;
+    width: 45%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    background-color:rgb(30, 30, 30);
+    border: px solid green;
+}
+
+.gambar .kopi-gambar-image{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 991.98px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        max-height: 150px;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+      }
+    
+      nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+      }
+    
+      nav .menu ul li {
+        display: inline-block;
+        float: none;
+        margin-left: -20px;
+        margin-right: -20px;
+        font-size: 14px;
+      }
+
+      .judul{
+        margin-top: 5px;
+        display: block;
+    width: 100%;
+    text-align: center;
+      }
+
+    .judul2{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: -40px;
+      }
+
+      .isi_pertama {
+        padding: 50px;
+    }
+    
+    .isi_pertama .sambutan{
+        font-size: 10px;
+    }
+    
+    .isi_pertama h4{
+        margin: 0 70px 0 70px;
+    }
+    
+    .isi_kedua {
+        padding: 100px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: baseline;
+    }
+    
+    .gambar .gorengan-gambar {
+        padding-bottom:28px ;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        background-color:rgb(30, 30, 30);
+        border: px solid green;
+        font-size: 15px;
+    }
+    
+    .gambar .gorengan-gambar-image{
+        height: 100%;
+        width: 100%;
+    }
+
+    .gambar .kopi-gambar {
+        padding-bottom:28px ;
+        width: 100%;
+        height: 50%;
+        float: right;
+        text-align: center;
+        background-color:rgb(30, 30, 30);
+        border: px solid green;
+        font-size: 15px;
+    }
+    
+    .gambar .kopi-gambar-image{
+        height: 100%;
+        width: 100%;
+    }
+
+}

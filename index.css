@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 }
 
 body {
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(250, 250, 250);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding: 0%;
@@ -18,7 +18,7 @@ body {
 }
 
 h1,h2, h3, h4, p {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .Nav {
@@ -35,7 +35,7 @@ h1,h2, h3, h4, p {
     font-size: 35px;
     font-weight: 800;
     font-family: monospace;
-    color: rgb(0, 150, 0);
+    color: rgb(0, 62, 150);
     float: left;
     padding: 15px;
     text-decoration: none
@@ -50,7 +50,7 @@ h1,h2, h3, h4, p {
     font-size: 35px;
     font-weight: 800;
     font-family: monospace;
-    color: rgb(150, 0, 0);
+    color: rgb(0, 62, 150);
     float: left;
     padding: 15px;
 }
@@ -61,7 +61,7 @@ h1,h2, h3, h4, p {
 
 nav {
     border-bottom: solid 4px;
-    border-color: rgb(0, 150, 0);
+    border-color: rgb(0, 77, 141);
     width: 100%;
     margin: auto;
     display: flex;
@@ -70,7 +70,7 @@ nav {
     position: -webkit-sticky;
     top: 0%;
     z-index: 100;
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(255, 238, 0);
     text-decoration: none
 }
 
@@ -90,59 +90,30 @@ nav ul li a {
     text-align: center;
     padding:  16px;
     text-decoration: none;
-    color: rgb(0, 150, 0);
+    color: rgb(0, 106, 255);
     transition: ease-in-out 212ms;
 }
 nav ul li a:hover {
     text-decoration: none;
-    color:rgb(0, 250, 0);
+    color:rgb(0, 47, 112);
     transition: ease-in-out 212ms;
 }
+
+.logo_salut {
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-right: 8px;
+    width: 5.1%;
+    float: left;
+}
+
 
 .isi_pertama {
     padding: 100px;
     display: flex;
     justify-content: center;
     padding-bottom: 1px;
-}
-.isi_pertama h4{
-    margin: 0 100px 0 100px;
-}
-
-.isi_kedua {
-    padding: 100px;
-    display: flex;
-    justify-content: baseline;
-}
-
-.gambar .gorengan-gambar {
-    padding-bottom:28px ;
-    width: 45%;
-    height: 100%;
-    float: left;
     text-align: center;
-    background-color:rgb(30, 30, 30);
-    border: px solid green;
-}
-
-.gambar .gorengan-gambar-image{
-    height: 100%;
-    width: 100%;
-}
-
-.gambar .kopi-gambar {
-    padding-bottom:28px ;
-    width: 45%;
-    height: 100%;
-    float: right;
-    text-align: center;
-    background-color:rgb(30, 30, 30);
-    border: px solid green;
-}
-
-.gambar .kopi-gambar-image{
-    height: 100%;
-    width: 100%;
 }
 
 
@@ -152,33 +123,34 @@ nav ul li a:hover {
         display: flex;
         justify-content: center;
         max-height: 150px;
+        max-width: 991.98px;
     }
 
     nav .menu {
         width: 100%;
         margin: 0;
-      }
+    }
     
-      nav .menu ul {
+    nav .menu ul {
         text-align: center;
         margin: auto;
         line-height: 60px;
-      }
+    }
     
-      nav .menu ul li {
+    nav .menu ul li {
         display: inline-block;
         float: none;
         margin-left: -20px;
         margin-right: -20px;
         font-size: 14px;
-      }
+    }
 
-      .judul{
+    .judul{
         margin-top: 5px;
         display: block;
     width: 100%;
     text-align: center;
-      }
+    }
 
     .judul2{
     display: block;
@@ -186,9 +158,15 @@ nav ul li a:hover {
     text-align: center;
     margin-top: -20px;
     margin-bottom: -40px;
-      }
+    }
 
-      .isi_pertama {
+    .logo_salut {
+        position: absolute;
+        width: 12%;
+        float: left;
+    }
+
+    .isi_pertama {
         padding: 50px;
     }
     
@@ -200,42 +178,6 @@ nav ul li a:hover {
         margin: 0 70px 0 70px;
     }
     
-    .isi_kedua {
-        padding: 100px;
-        padding-top: 10px;
-        display: flex;
-        justify-content: baseline;
-    }
     
-    .gambar .gorengan-gambar {
-        padding-bottom:28px ;
-        width: 100%;
-        height: 50%;
-        text-align: center;
-        background-color:rgb(30, 30, 30);
-        border: px solid green;
-        font-size: 15px;
-    }
-    
-    .gambar .gorengan-gambar-image{
-        height: 100%;
-        width: 100%;
-    }
-
-    .gambar .kopi-gambar {
-        padding-bottom:28px ;
-        width: 100%;
-        height: 50%;
-        float: right;
-        text-align: center;
-        background-color:rgb(30, 30, 30);
-        border: px solid green;
-        font-size: 15px;
-    }
-    
-    .gambar .kopi-gambar-image{
-        height: 100%;
-        width: 100%;
-    }
 
 }
